@@ -10,13 +10,7 @@ html {
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
-}
-/* Set font-family for all 6 levels of section headings */
-h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-family-title);
-}
-
-/* Setting the foreground color for all anchor elements */
+}/* Setting the foreground color for all anchor elements */
 a {
     color: var(--text-color);
 }
@@ -44,4 +38,8 @@ a {
     --text-color: var(--color-black);
     --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+/* Set font-family for all 6 levels of section headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-family-title);
 }
