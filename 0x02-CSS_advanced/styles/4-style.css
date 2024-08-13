@@ -1,21 +1,20 @@
-/* scroll to be as fluid as possible. */
-
+/* Scroll to be as fluid as possible. */
 html {
     scroll-behavior: smooth;
 }
 
-
 /* Setting the foreground color for the body */
-/* Set the body font-family to the custom base font-family */
 body {
     color: var(--text-color);
     font-family: var(--font-family-base);
-}/* Setting the foreground color for all anchor elements */
+}
+
+/* Setting the foreground color for all anchor elements */
 a {
     color: var(--text-color);
 }
 
-/* should have their display to none */
+/* Should have their display to none */
 .visually-hidden {
     display: none;
 }
@@ -27,19 +26,22 @@ a {
 
 /* Setting the foreground color */
 .section-tagline {
-    color: var(--color-primary)
+    color: var(--color-primary);
 }
-/*define custom properties */
-:root{
+
+/* Define custom properties */
+:root {
     --color-primary: #d73953;
-    ----color-black: #090909;
+    --color-black: #090909;
     --color-white: #ffffff;
     --color-light-grey: #f3f3f3;
     --text-color: var(--color-black);
-    --font-family-base: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    --font-family-title: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    --font-family-base: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    --font-family-title: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-/* Set font-family for all 6 levels of section headings */
+
+/* Targeting all 6 levels of section headings */
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-family-title);
 }
+
