@@ -1,0 +1,39 @@
+/* scroll to be as fluid as possible. */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Setting the foreground color for the body */
+body {
+    color: var(--text-color);
+}
+
+/* Setting the foreground color for all anchor elements */
+a {
+    color: var(--text-color);
+}
+
+/* should have their display to none */
+.visually-hidden {
+    display: none;
+}
+
+/* Setting foreground color */
+.card-category {
+    color: var(--color-primary);
+}
+
+/* Setting the foreground color */
+.section-tagline {
+    color: var(--color-primary)
+}
+/*define custom properties */
+:root{
+    --color-primary: #d73953;
+    ----color-black: #090909;
+    --color-white: #ffffff;
+    --color-light-grey: #f3f3f3;
+    --text-color: var(--color-black);
+}
