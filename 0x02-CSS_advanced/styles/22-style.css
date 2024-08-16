@@ -26,7 +26,6 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    background-color: var(--background-color);
 }
 
 /* Setting the foreground color for all anchor elements */
@@ -99,8 +98,6 @@ a:active {
     --nav-item-link-hover: var(--color-primary);
     --section-tagline-margin: 0;
     --root-element: 16px;
-    --background-color: var(--color-black);
-    --text-color: var(--color-white);   
 }
 
 /* Targeting the section-title class */
@@ -203,3 +200,9 @@ ul.row {
     float: left;
     padding: calc(var(--root-padding) / 2);
 }
+[data-section-theme="dark"] {
+    --text-color: var(--color-white);
+    --section-title-color: var(--color-white);
+    background-color: var(--color-black);
+}
+
