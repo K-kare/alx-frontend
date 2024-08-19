@@ -184,10 +184,18 @@ a:active {
     list-style: none; 
     text-align: center; 
 }
-.nav .nav-link {
+.nav .nav-link ::before { 
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 0;
+    height: 20%;
     display: block;
     padding: calc(var(--root-element) / 2) var(--root-element);
-}
+}    
+
 .nav .nav-link:hover {
     color: var(--nav-item-link-hover);
 }
@@ -199,15 +207,14 @@ a:active {
     display: var(--nav-item-display);
     margin: var(--nav-item-margin);
 }
-nav .nav-link::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-color: var(--color-white);
-    width: 0;
-    height: 20%;
-  } 
+nav .nav-link
+    
+    
+    
+    
+    
+    
+    
   nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
