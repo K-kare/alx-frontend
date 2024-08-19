@@ -201,6 +201,7 @@ a:active {
     height: 0.2rem;
 }
 .nav .nav-link:hover::before {
+    content: ""; 
     background-color: var(--color-primary);
     width: 100%;
 }
