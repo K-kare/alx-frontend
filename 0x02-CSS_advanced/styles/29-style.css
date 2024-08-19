@@ -110,7 +110,7 @@ a:active {
     --nav-item-letter-spacing: 4%;
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 3rem 0;
-    --nav-item-link-hover: var(--color-primary);
+    --nav-item-link-hover: var(--color-white);
     --section-tagline-margin: 0;
     --root-element: 16px;
     --button-display: inline-block;
